@@ -1,0 +1,931 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 153, 37, 0.678) 50%,
+    rgba(206, 135, 19, 0.942) 100%
+  );
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.nav1 {
+  font-size: 20px;
+}
+/* #timing {
+  padding: 20px;
+} */
+span {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.logo {
+  margin: 30px;
+}
+.tec {
+  margin-left: 50px;
+  margin-top: -60px;
+  font-size: 45px;
+  color: rgba(253, 160, 29, 0.6783963585434174);
+}
+/* .link{
+  display: flex;
+  flex-direction: column;
+} */
+
+.link a {
+  text-decoration: none;
+  color: rgba(224, 132, 4, 0.678);
+  /* margin: 90px; */
+}
+a.contact-link{
+  text-decoration: none;
+  color: rgba(224, 132, 4, 0.678);
+}
+.courses {
+  margin-top: 50px;
+}
+a {
+  margin: 80px;
+  text-decoration: none;
+  color: rgba(224, 132, 4, 0.678);
+}
+/* button {
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: rgba(253, 160, 29, 0.6783963585434174);
+  border-radius: 10px;
+  margin-left: 20px;
+} */
+.btn-d{
+   width: 200px;
+  height: 50px;
+  margin: 20px 0px 0px 20px ;
+  border-radius: 10px;
+  background-color:  rgba(224, 132, 4, 0.678);
+  color: white;
+  font-size: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+.main {
+  margin-top: 20px;
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 153, 37, 0.678) 50%,
+    rgba(206, 135, 19, 0.942) 100%
+  );
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.heading {
+  color: white;
+  margin-left: 100px;
+  font-size: 50px;
+}
+.paragraph {
+  font-size: 23px;
+  margin-left: 100px;
+  color: white;
+}
+.btn-main {
+  width: 200px;
+  height: 50px;
+  margin: 20px 0px 0px 100px ;
+  border-radius: 10px;
+  background-color:  rgba(32, 141, 43, 0.678);
+  color: white;
+  font-size: 20px;
+}
+.btn-main:hover{
+  background-color: rgba(4, 60, 10, 0.678) ;
+}
+.img2 {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.awards {
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+}
+.awards-paragraph {
+  text-align: center;
+  font-size: 20px;
+}
+.card {
+  margin: 20px;
+  width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  /* background-color: black; */
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 153, 37, 0.678) 50%,
+    rgba(206, 135, 19, 0.942) 100%
+  );
+  color: white;
+  height: 670px;
+}
+.mission {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.mission-paragraph {
+  font-size: 17px;
+  margin-left: 100px;
+  /* margin-top: 10px; */
+}
+.container-cards {
+  margin: 20px;
+  width: 95%;
+  height: 110px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+}
+.count {
+  color: green;
+}
+.data {
+  font-size: 25px;
+  /* padding: 10px; */
+  margin: 10px;
+}
+ul li {
+  text-decoration: none;
+}
+.title {
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+.sub-title {
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+.container3-card {
+  margin-left: 100px;
+  width: 600px;
+  height: 130px;
+  background-color: rgba(236, 153, 37, 0.678);
+  border-radius: 10px;
+}
+.container3-card2 {
+  margin-left: 100px;
+  width: 600px;
+  height: 13 0px;
+  background-color: rgba(236, 153, 37, 0.678);
+  border-radius: 10px;
+}
+
+#profile-icon {
+  font-size: 60px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.g1 {
+  margin-left: 100px;
+  margin-top: -70px;
+  font-size: 20px;
+}
+/* .vertical-line{
+  width: 5px;
+  height: 100px;
+  background-color: red;
+  margin: 0px 0px 100px 90px;
+  border-radius: 10px;
+} */
+.p1 {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.line {
+  width: 100px;
+  height: 50px;
+  background: green;
+}
+.course-title {
+  text-align: center;
+  font-size: 40px;
+}
+.course-subtitle {
+  text-align: center;
+  margin: 40px;
+  font-size: 20px;
+}
+.courses-card {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 50px;
+}
+.card1 {
+  width: 400px;
+  height: 580px;
+  background-color: rgb(78, 203, 78);
+  text-align: center;
+  border-radius: 10px;
+}
+.card2 {
+  width: 400px;
+  height: 580px;
+  background-color: skyblue;
+  text-align: center;
+  border-radius: 10px;
+}
+.card3 {
+  width: 400px;
+  height: 580px;
+  background-color: rgb(160, 160, 22);
+  text-align: center;
+  border-radius: 10px;
+}
+.card1-item {
+  margin: 10px;
+
+  margin-top: 30px;
+  text-align: center;
+  width: 380px;
+  height: 540px;
+  background-color: white;
+  border-radius: 10px;
+}
+/* .check {
+  margin-top: 10px;
+  font-size: 20px;
+} */
+.E-btn {
+  background-color: rgb(78, 203, 78);
+  padding: 15px;
+  width: 130px;
+  margin-left: 130px;
+  border-radius: 10px;
+}
+.E-btn:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+.enroll-btn {
+  color: white;
+}
+.card2-item {
+  margin: 10px;
+
+  margin-top: 30px;
+  text-align: center;
+  width: 380px;
+  height: 540px;
+  background-color: white;
+  border-radius: 10px;
+}
+.card3-item {
+  margin: 10px;
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+  width: 380px;
+  height: 540px;
+  background-color: white;
+  border-radius: 10px;
+}
+.course-card2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.card4 {
+  width: 400px;
+  height: 580px;
+  background-color: rgb(201, 19, 19);
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+.card5 {
+  width: 400px;
+  height: 580px;
+  background-color: rgb(161, 27, 72);
+  text-align: center;
+  border-radius: 10px;
+}
+.card-item4 {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-align: center;
+  width: 380px;
+  height: 540px;
+  background-color: white;
+  border-radius: 10px;
+}
+.card-item5 {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 30px;
+  text-align: center;
+  width: 380px;
+  height: 540px;
+  background-color: white;
+  border-radius: 10px;
+}
+.subtile-2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.full-banner {
+  width: 100%;
+  height: 1030px;
+  background: linear-gradient(
+    90deg,
+    rgba(236, 153, 37, 0.678) 50%,
+    rgba(206, 135, 19, 0.942) 100%
+  );
+}
+.banner {
+  height: 800px;
+  /*   
+  background: linear-gradient(
+    90deg,
+    rgba(236, 153, 37, 0.678) 50%,
+    rgba(206, 135, 19, 0.942) 100%
+  ); */
+  margin-top: 30px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.banner-item1 {
+  margin: 80px;
+  height: 800px;
+}
+.banner-title1 {
+  font-size: 50px;
+}
+.banner-paragraph1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.points {
+  margin-top: 15px;
+  font-size: 17px;
+}
+.schedule-btn {
+  margin-top: 40px;
+  background-color: chartreuse;
+  width: 300px;
+  font-size: 15px;
+  /* height: 50px; */
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.schedule-btn:hover {
+  background-color: rgb(114, 55, 55);
+  transform-origin: left;
+  transition-duration: 2s;
+}
+.certificate-img {
+  margin-top: 70px;
+}
+.last-line {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 40px;
+  margin-top: 130px;
+}
+.banner-item2 {
+  height: 800px;
+}
+.red-line {
+  width: 100px;
+  height: 5px;
+  background: red;
+  margin-left: 650px;
+  border-radius: 10px;
+}
+.tajinder-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.about-tajinder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px;
+}
+.tajinder-subtitle {
+  width: 100%;
+}
+.about {
+  margin-top: 20px;
+}
+.video-btn-color {
+  background-color: greenyellow;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+* .video-btn {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+/* .tajinder-video{
+  height: 400px;
+  width: 700px;
+  margin: 50px;
+  margin-top: 0px; 
+  margin-left: 100px;
+margin-right: 200px;  
+}  */
+/* .link{
+  width: 700px;
+  margin: 50px;
+} */
+.trainer-title {
+  text-align: center;
+  font-size: 30px;
+}
+.trainer-subtitle {
+  font-size: 17px;
+  margin: 30px 100px 0px 100px;
+}
+.trained-student-review-bgcolor {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 800px;
+}
+.student-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.student-subtitle {
+  margin: 20px 100px 0px 100px;
+  font-size: 15px;
+}
+.student-video {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 0px 50px 0px 50px;
+}
+.visa-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.visa-title {
+  margin: 20px 50px 0px 70px;
+  font-size: 40px;
+}
+.visa-img {
+  border-radius: 35px;
+  border-bottom-left-radius: 196px;
+  margin-top: 15px;
+}
+.visa-details {
+  margin: 40px 70px 0px 0px;
+}
+.visa-details-paragraph {
+  font-size: 17px;
+}
+.flag {
+  margin: 30px 0px 0px 0px;
+}
+.flag-img {
+  margin: 20px 0px 0px 0px;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+.country-name {
+  margin: 50px 0px 0px 50px;
+  font-size: 20px;
+}
+.country-name:hover {
+  cursor: pointer;
+  color: red;
+}
+.flag1:hover {
+  cursor: pointer;
+  color: red;
+}
+.question-section {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(
+    rgba(211, 83, 199, 0.678) 50%,
+    rgba(236, 61, 196, 0.942) 100%
+  );
+}
+.question-title {
+  font-size: 40px;
+}
+.accordin-class {
+  width: 80%;
+  margin: 50px 100px 0px 150px;
+}
+.accordion-button {
+  height: 80px;
+}
+.bold {
+  font-size: 20px;
+}
+.map {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 570px;
+}
+.center-title {
+  color: red;
+  margin: 20px 0px 0px 0px;
+}
+.TecOnline-Online-Support {
+  margin: 20px 0px 0px 0px;
+  font-size: 50px;
+}
+.time {
+  color: red;
+  margin: 20px 0px 0px 0px;
+}
+.call{
+  
+  margin: 20px 0px 0px 0px;
+}
+.tel{
+  margin: 20px 0px 0px 0px;
+}
+.contact{
+  margin: 0px 0px 0px 100px;
+  text-align: center;
+  width: 400px;
+  height: 530px;
+  background-color: black;
+}
+.send-message{
+  margin: 20px 0px 0px 0px;
+  color: white;
+}
+.input{
+  margin: 20px 0px 0px 0px;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+}
+.input::placeholder{
+  padding: 0px 0px 0px 20px;
+}
+.message{
+  margin: 20px 0px 0px 0px;
+  width: 350px;
+  height: 150px;
+  border-radius: 10px;
+}
+.message::placeholder{
+  padding: 0px 0px 0px 20px;
+}
+.form-btn{
+  margin: 20px 0px 0px 25px;
+  background-color: red;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+}
+.form-btn:hover{
+  cursor: pointer;
+  background-color:rgb(203, 110, 110) ;
+  transition: 2s;
+  transform-origin: right;
+  
+}
+.footer{
+  width: 100%;
+  height: 500px;
+  background-color: rgb(77, 73, 73);
+  color: white;
+}
+.footer-data{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.footer-data1-img{
+  text-align: center;
+}
+.footer-logo{
+  margin: 40px 20px 0px 0px;
+  color: white;
+  position: relative;
+  left: -70px;
+}
+.footer-title{
+
+margin: -40px 0px 0px 25px;
+font-size: 35px;
+}
+.footer-paragraph{
+  width: 300px;
+  margin: 20px 0px 0px 80px;
+}
+.footer-input{
+  width: 300px;
+  margin: 15px 0px 0px 80px;
+  height: 50px;
+  border-radius: 10px;
+}
+.footer-input::placeholder{
+  padding: 0px 0px 0px 30px;
+}
+.footer-btn{
+  width: 300px;
+  height: 50px;
+  margin: 20px 0px 0px 80px ;
+  border-radius: 10px;
+  background-color: rgb(163, 67, 67);
+  color: white;
+  font-size: 20px;
+}
+.footer-data2 {
+  margin-left: 100px;
+}
+.footer-about{
+  margin: 40px 0px 0px 0px;
+}
+.footer-about-data{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-contact{
+  margin: 40px 0px 0px 0px;
+}
+.footer-contact-data{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+}
+.footer-services{
+  margin: 40px 0px 0px 0px;
+}
+.footer-services-data{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+}
+.storesite{
+  color: rgb(121, 188, 121);
+  cursor: pointer;
+  
+}
+.storesite:hover{
+cursor: pointer;
+}
+@media screen and (max-width:768px){
+  .nav1{
+    display: none;
+  }
+  .main{
+    text-align: start;
+    display: grid;
+    grid-template-columns: 100%;
+    /* text-align: center; */
+    width: 100%;
+    height: 600px;
+    
+  }
+  .heading{
+    font-size: 30px;
+  }
+  .paragraph{
+    font-size: 17px;
+  }
+  .btn-main{
+    display: none;
+  }
+  .img2{
+    
+    margin: 0px 120px 130px 0px;
+  }
+  .tec-img2{
+    width: 400px;
+  }
+  .container2{
+    display: grid;
+    grid-template-columns: 100%;
+    height: 95pc;
+  }
+  .tec-img4{
+    width: 400px;
+  }
+  .container-cards{
+    height: 160px;
+    margin-left: 10px;
+  }
+  .title{
+    font-size: 30px;
+  }
+  .sub-title{
+    font-size: 17px;
+  }
+  .container3{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .container3-card{
+    width: 420px;
+    height: 150px;
+    margin-left: 10px;
+  }
+  .container3-card2 {
+    width: 420px;
+    margin-left: 10px;
+  }
+  .g1{
+    font-size: 20px;
+  }
+  .p1{
+    font-size: 15px;
+  }
+  .course-title{
+   font-size: 25px;
+  }
+  .course-subtitle{
+    font-size: 17px;
+  }
+  .courses-card{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 15px;
+    
+  }
+  .course-card2{
+    display: grid;
+    grid-template-columns: 100%;
+   
+  }
+  .card4{
+    margin-left: 15px;
+  }
+  .card5{
+    margin-left: 15px;
+  }
+  .subtile-2{
+    width: 100%;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .full-banner{
+   height: 150pc;
+  }
+  .banner{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .certificate-img{
+    width: 400px;
+    height: 300px;
+    margin: 600px 0px 0px 20px;
+  }
+  .marquee-middle{
+    margin-bottom: 50px;
+  }
+  .last-line{
+    font-size: 25px;
+    margin-top: 1400px;
+    color: white;
+  }
+  .tajinder-title{
+    font-size: 20px;
+  }
+  .about-tajinder{
+display: grid;
+grid-template-columns: 100%;
+margin-top: -20px;
+  }
+  .tajinder-subtitle{
+    font-size: 17px;
+   
+  }
+  .tajinder-video{
+    margin-left: -100px;
+    width: 100px;
+  }
+  .video-img{
+    width: 300px;
+    height: 300px;
+  }
+  .card-body{
+    width: 150px;
+    height: 100px;
+  }
+.trained-student-review-bgcolor{
+  height: 100pc;
+}
+  .student-title{
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .student-video{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 20px;
+    
+  }
+  .student-video-img{
+    width: 250px;
+    height: 200px;
+  }
+  .visa-section{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .visa-title{
+    font-size: 20px;
+  }
+  .visa-img{
+    width: 300px;
+  }
+  .flag{
+    margin-left: -25px;
+  }
+  .country-name{
+    margin-left: 10px;
+  }
+  .question-title{
+    font-size: 30px;
+  }
+  .question-section {
+    height: 50pc;
+  }
+
+  .accordin-class{
+    margin-left: 20px;
+  }
+  .map{
+    display: grid;
+    grid-template-columns: 100%;
+    height: 70pc;
+  }
+
+  .contact{
+margin-left: 20px;
+  }
+  .footer {
+    height: 90pc;
+  }
+  .footer-data{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .footer-data1{
+    margin-left:-10px ;
+
+  }
+  .footer-input{
+    margin-left:-10px ;
+  }
+  .footer-btn{
+    margin-left:-10px ;
+  }
+  .footer-data2{
+    margin-left: -50px;
+  }
+  .footer-about{
+    margin-left: 30px;
+  }
+  .red-line{
+    margin-left: 150px;
+  }
+}
